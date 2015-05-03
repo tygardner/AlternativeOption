@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+	width:  100%;
+	margin: 20px 0;
+}
+
+body {
+	background: url('http://androidheadlines.com/wp-content/uploads/2012/05/48-1024x670.jpg') center center fixed;
+	background-repeat: no-repeat;
+	webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+
+}
+
+.button_container {
+	width: 600px;
+	height: 300px;
+	border: 2px solid;
+	border-radius: 25px;
+	padding: 10px;
+	display: block;
+	margin: 300px auto;
+	background: rgba(255,255,255,.5);
+}
+
+.description {
+	font-size: 18px;
+	margin-top: 30px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+.answer {
+	font-size: 15px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	font-style: italic;
+}
+
+.btn-primary {
+	background: #06004C;
+	font-family: sans-serif;
+}

@@ -8,7 +8,7 @@ app.controller('mainCtrl', function($scope, mainService){
 			var lon = position.coords.longitude;
 			mainService.getAddress(lat, lon).then(function(results){
 				console.log(results)
-				$scope.address =results.data.display_name;
+				$scope.address =results.data.address.city + ', ' + results.data.address.state;
 				var city = results.data.address.city;
 				var country = results.data.address.country_code;
 			mainService.getWeather(city, country).then(function(results){
