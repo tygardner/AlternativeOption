@@ -13,7 +13,7 @@ app.controller('mainCtrl', function($scope, mainService){
 				var country = results.data.address.country_code;
 			mainService.getWeather(city, country).then(function(results){
 				console.log(results);
-				$scope.weather=Math.round(((results.data.main.temp-273.15)*9/5)+32);
+				$scope.weather=Math.round(((results.data.main.temp-273.15)*9/5)+32); //Convert from kelvin to farenheight.
 				})
 			})
 		});

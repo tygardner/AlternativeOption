@@ -23,19 +23,20 @@ body {
 	display: block;
 	margin: 300px auto;
 	background: rgba(255,255,255,.5);
+	text-align: center;
 }
 
 .description {
-	font-size: 18px;
+	font-size: 25px;
 	margin-top: 30px;
-	color: #fff;
-	text-shadow: 2px 2px #000;
+	color: #2C58AF;
+	/*text-shadow: 2px 2px #000;*/
 }
 
 .answer {
-	font-size: 15px;
+	font-size: 30px;
 	color: #fff;
-	text-shadow: 2px 2px #000;
+	/*text-shadow: 2px 2px #000;*/
 	font-style: italic;
 }
 
